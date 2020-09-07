@@ -1,0 +1,23 @@
+{
+  "name": "test101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node -r tsconfig-paths/register src/index.ts",
+    "test": "jest -c jest.config.js --colors --runInBand --no-watchman --coverage=false",
+    "test:coverage": "jest -c jest.config.js --colors --runInBand --no-watchman --coverage=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "jest": "^26.4.2",
+    "mysql": "^2.18.1",
+    "ts-jest": "^26.3.0",
+    "ts-loader": "^8.0.3",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.0.2"
+  }
+}
